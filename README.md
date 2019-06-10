@@ -13,6 +13,14 @@
 
 ### features
 
-- dark(gloriuos brown + gold)
-- light(tea-mint + black)
+- dark bronze(gloriuos brown + bronze)
+- silver light(silver + tea-mint + black)
 - cute(?)
+
+### colors
+
+#### dark
+#### ligt
+#### cute
+
+
