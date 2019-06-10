@@ -441,7 +441,7 @@
     </dict>
 
 
-   <!-- LANGUAGE SPECIFIC -->
+   <!-- SOURCE SPECIFIC -->
    <!-- RUBY -->
    <!-- constants -->
   <dict>
@@ -500,6 +500,19 @@
     <dict>
       <key>foreground</key>
       <string>#C87F6E</string>
+    </dict>
+  </dict>
+
+  <!-- text -->
+  <dict>
+    <key>name</key>
+    <string>HTML - text</string>
+    <key>scope</key>
+    <string>text.html</string>
+    <key>settings</key>
+    <dict>
+      <key>foreground</key>
+      <string>#CBAE92</string>
     </dict>
   </dict>
 
@@ -646,6 +659,20 @@
     <dict>
       <key>foreground</key>
       <string>#777475</string>
+    </dict>
+  </dict>
+
+
+  <!-- PLAIN -->
+  <dict>
+    <key>name</key>
+    <string>PLAIN - text</string>
+    <key>scope</key>
+    <string>text.plain</string>
+    <key>settings</key>
+    <dict>
+      <key>foreground</key>
+      <string>#CBAE92</string>
     </dict>
   </dict>
   </array>
