@@ -21,7 +21,7 @@
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#2A2929</string>
+        <string>#2E2828</string>
 
         <key>foreground</key>
         <string>#DEBC81</string>
@@ -30,7 +30,7 @@
         <string>#DEBC81</string>
 
         <key>lineHighlight</key>
-        <string>#292828</string>
+        <string>#2B2525</string>
 
         <key>invisibles</key>
         <string>#282727</string>
@@ -49,13 +49,13 @@
 
         <!-- selection -->
         <key>selection</key>
-        <string>#1F1E1E</string>
+        <string>#241F1F</string>
 
         <key>inactiveSelection</key>
-        <string>#1F1E1E</string>
+        <string>#241F1F</string>
 
         <key>selectionBorder</key>
-        <string>#1F1E1E</string>
+        <string>#241F1F</string>
 
 
         <!-- gutter -->
@@ -116,7 +116,7 @@
         <key>foreground</key>
         <string>#6C6363</string>
         <key>background</key>
-        <string>#292828</string>
+        <string>#2B2525</string>
         <key>fontStyle</key>
         <string> italic</string>
       </dict>
