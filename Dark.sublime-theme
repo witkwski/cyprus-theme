@@ -1,0 +1,304 @@
+[
+  // WINDOWS
+  // {
+  //   "class": "title_bar"
+  // },
+  // {
+    // "class": "window"
+  // }
+  // {
+  //   "class": "edit_window"
+  // },
+  // {
+  //   "class": "switch_project_window"
+  // },
+
+
+  // SIDEBAR
+  {
+    "class": "sidebar_container",
+    "layer0.tint": [41, 36, 36],
+    "layer0.opacity": 1,
+  },
+  {
+    "class": "sidebar_tree"
+  },
+  {
+    "class": "tree_row"
+  },
+  {
+    "class": "sidebar_heading",
+    "fg": [108, 99, 99],
+  },
+  {
+    "class": "file_system_entry"
+  },
+  {
+    "class": "sidebar_label",
+    "fg": [119, 116, 117],
+  },
+  {
+    "class": "sidebar_label",
+    "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+    "color": [245, 161, 120]
+  },
+  {
+    "class": "sidebar_label",
+    "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+    "color": [200, 127, 110]
+  },
+  {
+    "class": "sidebar_label",
+    "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
+    "font.bold": true,
+  },
+  {
+    "class": "sidebar_label",
+    "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
+    "color": [245, 161, 120]
+  },
+  {
+    "class": "close_button"
+  },
+  {
+    "class": "disclosure_button_control"
+  },
+  {
+    "class": "icon_folder",
+    "layer0.tint": [41, 36, 36],
+    "content_margin": [5, 5],
+    "layer1.texture": "my_theme/assets/folder.png",
+    "layer1.opacity": 1,
+    "layer2.texture": "my_theme/assets/folder.png",
+    "layer2.opacity": 1,
+    "layer3.texture": "my_theme/assets/folder.png",
+    "layer3.opacity": 1,
+  },
+  {
+    "class": "icon_folder_loading"
+  },
+  {
+    "class": "icon_folder_dup"
+  },
+  {
+    "class": "vcs_status_badge"
+  },
+  {
+    "class": "icon_file_type",
+    "layer0.opacity": 1,
+    "content_margin": [5,5]
+  },
+
+
+  // TABS
+  {
+    "class": "tabset_control",
+    "layer0.tint": [41, 36, 36],
+    "layer0.opacity": 1,
+    "tab_overlap": 0,
+    "tab_width": 180,
+    "tab_min_width": 60,
+    "tab_height": 30
+  },
+  {
+    "class": "tab_control",
+    "content_margin": [10, 0],
+  },
+  {
+    "class": "tab_control",
+    "attributes": ["selected"],
+    "layer0.tint": [245, 161, 120],
+    "layer0.opacity": 0.05,
+  },
+  {
+    "class": "tab_label",
+    "fg": [119, 116, 117],
+  },
+  {
+    "class": "tab_label",
+    "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+  },
+  { // controls
+    "class": "tab_close_button",
+    "content_margin": [8, 8],
+    // close
+    "layer0.texture": "my_theme/assets/close.png",
+    "layer0.opacity": 1,
+    "layer0.inner_margin": 0,
+    // close hover
+    "layer1.texture": "my_theme/assets/close-hover.png",
+    "layer1.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "linear" },
+    // dirty
+    "layer2.texture": "my_theme/assets/close-dirty.png",
+    "layer2.inner_margin": 0,
+    // dirty hover
+    "layer3.texture": "my_theme/assets/close-dirty-hover.png",
+    "layer3.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "linear" }
+  },
+  //   "class": "tab_close_button",
+  //   "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+  //   "layer0.opacity": 0,
+  //   "layer1.opacity": 1
+  // },
+  { // hover
+    "class": "tab_close_button",
+    "attributes": ["hover"],
+    "layer0.opacity": 0,
+    "layer1.opacity": 1
+  },
+  { // dirty
+    "class": "tab_close_button",
+    "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+    "layer0.opacity": 0,
+    "layer1.opacity": 0,
+    "layer2.opacity": 0,
+    "layer3.opacity": 1,
+  },
+  { // dirty hover
+    "class": "tab_close_button",
+    "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+    "attributes": ["hover"],
+    "layer0.opacity": 0,
+    "layer1.opacity": 1,
+    "layer2.opacity": 0,
+    "layer3.opacity": 0
+  },
+  {
+    "class": "scroll_tabs_left_button"
+  },
+  {
+    "class": "scroll_tabs_right_button"
+  },
+  {
+    "class": "scroll_tabs_dropdown_button"
+  },
+
+
+  // QUICK PANEL
+  {
+    "class": "overlay_control",
+    "content_margin": [10,10,10,10],
+
+  },
+  {
+    "class": "quick_panel",
+    "layer0.tint": [41, 36, 36],
+    "layer0.opacity": 1,
+    "row_padding": [10, 10, 10, 10]
+  },
+  {
+    "class": "mini_quick_panel_row"
+  },
+  {
+    "class": "quick_panel_row"
+  },
+  {
+    "class": "quick_panel_label",
+    "fg": [119, 116, 117]
+  },
+  {
+    "class": "quick_panel_path_label",
+    "fg": [119, 116, 117]
+  },
+
+
+  // VIEWS
+  {"class":"text_area_control"},
+  {"class":"grid_layout_control"},
+  {"class":"minimap_control"},
+  {"class":"fold_button_control"},
+  {"class":"popup_control auto_complete_popup"},
+  {"class":"popup_control html_popup"},
+  {"class":"auto_complete"},
+  {"class":"table_row"},
+  {"class":"auto_complete_label"},
+
+
+  // PANELS
+  {
+    "class": "panel_control",
+    "layer0.tint": [41, 36, 36],
+    "layer0.opacity": 1
+  },
+  {"class":"panel_control find_panel"},
+  {"class":"panel_control replace_panel"},
+  {"class":"panel_control find_in_files_panel"},
+  {"class":"panel_control input_panel"},
+  {"class":"panel_control console_panel"},
+  {
+    "class": "panel_control output_panel",
+    "layer0.tint": [41, 36, 36],
+    "layer0.opacity": 1
+  },
+  {
+    "class": "panel_control switch_project_panel",
+    "layer0.tint": [41, 36, 36],
+    "layer0.opacity": 1
+  },
+  {"class":"panel_grid_control"},
+  {"class":"panel_close_button"},
+
+
+  // STATUS BAR
+  {"class": "status_bar"},
+  {"class": "panel_button_control"},
+  {"class": "status_container"},
+  {"class": "status_button"},
+  {"class": "vcs_status"},
+  {"class": "vcs_branch_icon"},
+  {"class": "vcs_changes_annotation"},
+
+
+  // DIALOGS
+  {"class": "dialog"},
+  {"class": "progress_bar_control"},
+  {"class": "progress_gauge_control"},
+
+
+  // SCROLL BARS
+  {"class": "scroll_area_control"},
+  {"class": "scroll_bar_control"},
+  {"class": "scroll_track_control"},
+  {"class": "scroll_corner_control"},
+  {"class": "puck_control"},
+
+
+  // INPUTS
+  {"class": "text_line_control"},
+  {"class": "dropdown_button_control"},
+
+
+  // BUTTONS
+  {"class": "button_control"},
+  {"class": "icon_button_group"},
+  {"class": "icon_button_control"},
+  {"class": "icon_regex"},
+  {"class": "icon_case"},
+  {"class": "icon_whole_word"},
+  {"class": "icon_wrap"},
+  {"class": "icon_in_selection"},
+  {"class": "icon_highlight"},
+  {"class": "icon_preserve_case"},
+  {"class": "icon_context"},
+  {"class": "icon_use_buffer"},
+
+
+  // LABELS
+  {"class": "label_control"},
+  {"class": "title_label_control"},
+
+
+  // TOOLTIPS
+  {
+    "class": "tool_tip_control",
+    "layer0.inner_margin": [0, 0],
+    "layer0.tint": [245, 161, 120],
+    "layer0.opacity": 1.0,
+    "content_margin": [16, 8]
+  },
+
+  {
+    "class": "tool_tip_label_control",
+    "color": [0, 0, 0, 150]
+  },
+]
