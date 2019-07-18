@@ -15,4 +15,4 @@
 
 - dark bronze(gloriuos brown + bronze)
 - silver light(silver + tea-mint + black)
-- cute(?)
+- cute(rose gold)
