@@ -440,13 +440,54 @@
 
 
   // STATUS BAR
-  {"class": "status_bar"},
-  {"class": "panel_button_control"},
-  {"class": "status_container"},
-  {"class": "status_button"},
-  {"class": "vcs_status"},
-  {"class": "vcs_branch_icon"},
-  {"class": "vcs_changes_annotation"},
+  {
+    "class": "status_bar",
+    "layer0.tint": [41, 36, 36],
+    "layer0.opacity": 1,
+    "content_margin": [15, 0, 15, 0]
+  },
+  {
+    "class": "label_control",
+    "parents": [{"class": "status_bar"}],
+    "color": [119, 116, 117],
+  },
+  {
+    "class": "panel_button_control",
+    "layer0.texture": "my_theme/assets/switch.png",
+    "layer0.opacity": 1,
+    "layer1.texture": "my_theme/assets/switch-active.png",
+    "layer1.opacity": { "target": 0.0, "speed": 15.0, "interpolation": "linear" },
+    "content_margin": [8, 8]
+  },
+  {
+    "class": "panel_button_control",
+    "attributes": ["hover"],
+    "layer0.opacity": 0,
+    "layer1.opacity": 1
+  },
+  {
+    "class": "status_container",
+    "content_margin": [5,5,5,5],
+  },
+  {
+    "class": "status_button",
+    "content_margin": [10,0,0,0],
+  },
+
+  // {
+  //   "class": "status_button",
+  //   "attributes": ["hover"],
+  // },
+  {
+    "class": "vcs_status",
+    "spacing": 10
+  },
+  {
+    "class": "vcs_branch_icon",
+  },
+  {
+    "class": "vcs_changes_annotation",
+  },
 
 
   // DIALOGS
@@ -484,7 +525,10 @@
 
 
   // LABELS
-  {"class": "label_control"},
+  {
+    "class": "label_control",
+    "color": [119, 116, 117],
+  },
   {"class": "title_label_control"},
 
 
