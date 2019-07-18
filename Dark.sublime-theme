@@ -20,7 +20,7 @@
     "class": "sidebar_container",
     "layer0.tint": [41, 36, 36],
     "layer0.opacity": 1,
-    "content_margin": [5,5,5,5]
+    "content_margin": [10,10,10,10]
   },
   {
     "class": "sidebar_tree",
@@ -142,24 +142,36 @@
     "layer0.opacity": 1,
     "layer1.texture": "my_theme/assets/folder-active.png",
     "layer1.opacity": 0,
+    "layer2.texture": "my_theme/assets/folder-open.png",
+    "layer2.opacity": 0,
   },
   {
     "class": "icon_folder",
     "parents": [{ "class": "tree_row", "attributes": ["selected"] }],
     "layer0.opacity": 0,
     "layer1.opacity": 1,
+    "layer2.opacity": 0,
   },
   {
     "class": "icon_folder",
     "parents": [{ "class": "tree_row", "attributes": ["expanded"] }],
     "layer0.opacity": 0,
-    "layer1.opacity": 1,
+    "layer1.opacity": 0,
+    "layer2.opacity": 1,
   },
   {
     "class": "icon_folder",
     "parents": [{ "class": "tree_row", "attributes": ["hover"] }],
     "layer0.opacity": 0,
     "layer1.opacity": 1,
+    "layer2.opacity": 0,
+  },
+  {
+    "class": "icon_folder",
+    "parents": [{ "class": "tree_row", "attributes": ["expanded"] }],
+    "layer0.opacity": 0,
+    "layer1.opacity": 0,
+    "layer2.opacity": 1,
   },
   {
     "class": "icon_folder_loading"
@@ -226,7 +238,7 @@
   //   "parents": [{"class": "tab_control", "attributes": ["selected"]}],
   //   "layer0.opacity": 0,
   //   "layer1.opacity": 1
-  // },
+  // }
   { // hover
     "class": "tab_close_button",
     "attributes": ["hover"],
