@@ -623,6 +623,11 @@
     "layer0.texture": "my_theme/assets/asterisk-active.png",
   },
   {
+    "class": "icon_regex",
+    "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+    "layer0.texture": "my_theme/assets/asterisk-active.png",
+  },
+  {
     "class": "icon_case",
     "layer0.texture": "my_theme/assets/case.png",
     "layer0.opacity": 1,
@@ -631,6 +636,11 @@
   {
     "class": "icon_case",
     "attributes": ["hover"],
+    "layer0.texture": "my_theme/assets/case-active.png",
+  },
+  {
+    "class": "icon_case",
+    "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.texture": "my_theme/assets/case-active.png",
   },
   {
@@ -645,6 +655,11 @@
     "layer0.texture": "my_theme/assets/quotes-active.png",
   },
   {
+    "class": "icon_whole_word",
+    "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+    "layer0.texture": "my_theme/assets/quotes-active.png",
+  },
+  {
     "class": "icon_wrap",
     "layer0.texture": "my_theme/assets/wrap.png",
     "layer0.opacity": 1,
@@ -653,6 +668,11 @@
   {
     "class": "icon_wrap",
     "attributes": ["hover"],
+    "layer0.texture": "my_theme/assets/wrap-active.png",
+  },
+  {
+    "class": "icon_wrap",
+    "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.texture": "my_theme/assets/wrap-active.png",
   },
   {
@@ -667,6 +687,11 @@
     "layer0.texture": "my_theme/assets/select-active.png",
   },
   {
+    "class": "icon_in_selection",
+    "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+    "layer0.texture": "my_theme/assets/select-active.png",
+  },
+  {
     "class": "icon_highlight",
     "layer0.texture": "my_theme/assets/highlight.png",
     "layer0.opacity": 1,
@@ -678,15 +703,25 @@
     "layer0.texture": "my_theme/assets/highlight-active.png",
   },
   {
+    "class": "icon_highlight",
+    "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+    "layer0.texture": "my_theme/assets/highlight-active.png",
+  },
+  {
     "class": "icon_preserve_case",
-    "layer0.texture": "my_theme/assets/preserve.png",
+    "layer0.texture": "my_theme/assets/lock.png",
     "layer0.opacity": 1,
     "content_margin": [8, 8],
   },
   {
     "class": "icon_preserve_case",
     "attributes": ["hover"],
-    "layer0.texture": "my_theme/assets/preserve-active.png",
+    "layer0.texture": "my_theme/assets/lock-active.png",
+  },
+  {
+    "class": "icon_preserve_case",
+    "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+    "layer0.texture": "my_theme/assets/lock-active.png",
   },
   {
     "class": "icon_context",
@@ -700,6 +735,11 @@
     "layer0.texture": "my_theme/assets/list-active.png",
   },
   {
+    "class": "icon_context",
+    "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+    "layer0.texture": "my_theme/assets/list-active.png",
+  },
+  {
     "class": "icon_use_buffer",
     "layer0.texture": "my_theme/assets/paste.png",
     "layer0.opacity": 1,
@@ -708,6 +748,11 @@
   {
     "class": "icon_use_buffer",
     "attributes": ["hover"],
+    "layer0.texture": "my_theme/assets/paste-active.png",
+  },
+  {
+    "class": "icon_use_buffer",
+    "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
     "layer0.texture": "my_theme/assets/paste-active.png",
   },
 
